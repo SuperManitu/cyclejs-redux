@@ -1,0 +1,36 @@
+{
+  "name": "cyclejs-redux",
+  "version": "1.0.0",
+  "description": "A cycle.js driver for redux - Written in Typescript",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "buildWindows": ".\\node_modules\\.bin\\tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperManitu/cyclejs-redux.git"
+  },
+  "keywords": [
+    "cyclejs",
+    "redux"
+  ],
+  "author": "Jan van Brügge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperManitu/cyclejs-redux/issues"
+  },
+  "homepage": "https://github.com/SuperManitu/cyclejs-redux#readme",
+  "dependencies": {
+    "@cycle/xstream-adapter": "^3.0.2"
+  },
+  "peerDependencies": {
+    "xstream": "*"
+  },
+  "devDependencies": {
+    "@cycle/base": "^4.0.1",
+    "typescript": "^1.8.10",
+    "xstream": "^5.2.1"
+  }
+}
